@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "nxt-example",
+  "alias": ["nxt-example"],
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "routes": [
+    {
+      "src": "^/service-worker.js$",
+      "dest": "/_next/public/service-worker.js"
+    }
+  ]
+}
