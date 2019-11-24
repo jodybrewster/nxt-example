@@ -14,7 +14,7 @@ const LockedPage = () => (
                 <Text>
                     Locked Page
                 </Text>
-                <Heading size="small" truncate={false} margin="none">
+                <Heading size="small" truncate={false} margin="none" style={{color: 'red'}}>
                 Locked Page
                 </Heading>
                 <Paragraph>

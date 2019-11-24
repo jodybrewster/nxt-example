@@ -27,6 +27,7 @@ const LoginPage = () => {
         type: 'authUser',
         user: { email: form.email }
       });
+      location.href = '/';
     } 
   }
 
