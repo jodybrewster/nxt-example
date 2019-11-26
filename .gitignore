@@ -67,3 +67,8 @@ yarn.lock
 .vscode
 
 public/*
+
+.env
+
+postgres-data
+pgadmin-data
